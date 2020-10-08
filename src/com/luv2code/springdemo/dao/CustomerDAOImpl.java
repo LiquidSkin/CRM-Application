@@ -24,7 +24,7 @@ public class CustomerDAOImpl implements CustomerDAO {
 	@Autowired
 	private SessionFactory sessionFactory;
 
-	   @Transactional
+
 		public List<Customer> getCustomers() {
 			// TODO Auto-generated method stub
 			Session currentSession = sessionFactory.getCurrentSession();
